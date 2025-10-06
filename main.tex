@@ -1,0 +1,63 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template
+% Main Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[
+    11pt,       % Font size
+    fleqn,      % Left align equations
+    a4paper     % Paper size
+]{BookTemplate} % Document class
+
+% === META DATA ===
+\include{frontend/inc/metadata}
+
+\addbibresource{frontend/sample.bib} % Bibliography file
+
+\include{backend/setting}
+
+
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% === FRONT MATTER ===
+\frontmatter   % Roman page numbers (i, ii, iii...) 
+
+% --- Title Page ---
+\include{backend/src/title}
+
+% --- Copyright Page ---
+\include{backend/src/copyright}
+
+% --- Dedication Page ---
+\include{backend/src/dedication}
+
+% --- Preface Page ---
+\include{backend/src/preface}
+
+% --- Table of Contents ---
+\cleardoublepage
+\include{backend/src/contents}   % Using include ensures proper page break
+
+% === MAIN MATTER ===
+\mainmatter    % Arabic page numbers (1, 2, 3...)
+
+% --- Parts & Chapters ---
+\include{backend/src/parts}
+
+% === BACK MATTER ===
+\backmatter    
+
+% --- Bibliography ---
+\cleardoublepage
+\include{backend/src/bibliography}
+
+% --- Index ---
+\cleardoublepage
+\include{backend/src/index}
+
+% --- Appendices ---
+\cleardoublepage
+\include{backend/src/appendices}
+
+\end{document}

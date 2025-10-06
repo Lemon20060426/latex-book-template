@@ -1,0 +1,82 @@
+{
+  "files.associations": {
+    "iostream": "cpp",
+    "array": "cpp",
+    "string": "cpp",
+    "vector": "cpp",
+    "algorithm": "cpp",
+    "fstream": "cpp",
+    "atomic": "cpp",
+    "bit": "cpp",
+    "cctype": "cpp",
+    "clocale": "cpp",
+    "cmath": "cpp",
+    "compare": "cpp",
+    "concepts": "cpp",
+    "cstdarg": "cpp",
+    "cstddef": "cpp",
+    "cstdint": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cwchar": "cpp",
+    "cwctype": "cpp",
+    "deque": "cpp",
+    "unordered_map": "cpp",
+    "exception": "cpp",
+    "functional": "cpp",
+    "iterator": "cpp",
+    "memory": "cpp",
+    "memory_resource": "cpp",
+    "numeric": "cpp",
+    "optional": "cpp",
+    "random": "cpp",
+    "string_view": "cpp",
+    "system_error": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp",
+    "initializer_list": "cpp",
+    "iosfwd": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "new": "cpp",
+    "numbers": "cpp",
+    "ostream": "cpp",
+    "sstream": "cpp",
+    "stdexcept": "cpp",
+    "streambuf": "cpp",
+    "cinttypes": "cpp",
+    "typeinfo": "cpp"
+  },
+
+  // Run in terminal and auto-save first
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+
+  // Map by language ID
+  "code-runner.executorMap": {
+    "cpp": "./compile.bat",
+    "c": "./compile.bat",
+    "python": "./compile.bat",
+    "javascript": "./compile.bat",
+    "typescript": "./compile.bat",
+    "java": "./compile.bat",
+    "latex": "./compile.bat",
+    "plaintext": "./compile.bat",
+    "json": "./compile.bat",
+    "markdown": "./compile.bat"
+  },
+
+  // Fallback by file extension
+  "code-runner.executorMapByFileExtension": {
+    ".tex": "./compile.bat",
+    ".cpp": "./compile.bat",
+    ".c": "./compile.bat",
+    ".py": "./compile.bat",
+    ".js": "./compile.bat",
+    ".ts": "./compile.bat",
+    ".md": "./compile.bat",
+    ".json": "./compile.bat",
+    ".txt": "./compile.bat"
+  }
+}
